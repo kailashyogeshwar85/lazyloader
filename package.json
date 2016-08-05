@@ -1,0 +1,23 @@
+{
+  "name": "lazyloader",
+  "version": "1.0.0",
+  "description": "Image Utility plugin for showing image related background color until image is been loaded.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "keywords": [
+    "lazyloader",
+    "google-image-background",
+    "loader",
+    "image",
+    "utility",
+    "contentstack",
+    "plugin"
+  ],
+  "author": "Kailash K Yogeshwar",
+  "license": "ISC",
+  "dependencies": {
+    "color-thief": "^2.2.2"
+  }
+}
