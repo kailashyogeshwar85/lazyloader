@@ -1,6 +1,6 @@
 {
   "name": "lazyloader-cmsplugin",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Image Utility plugin for showing image related background color until image is been loaded.",
   "main": "index.js",
   "scripts": {
