@@ -32,6 +32,7 @@ module.exports = function Lazyloader() {
    };
 
   var getImageRGB = function (url){
+    try{
       var _contentPath = null;
       var env = contentstack.config._config.environment;
       if(env == 'development'){
@@ -42,5 +43,8 @@ module.exports = function Lazyloader() {
       var image  = fs.readFileSync(_contentPath);
       var rgb    = colorThief.getColor(image);
       return "style=background:rgb(" + rgb[0] + "," + rgb[1] + "," + rgb[2] + ")";
+    } catch(e) {
+      console.error(e);
+    }
   }
 };
