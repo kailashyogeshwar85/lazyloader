@@ -1,11 +1,14 @@
+[![NPM](https://nodei.co/npm/lazyloader-cmsplugin.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/lazyloader-cmsplugin/)
+
 # LazyLoader for contentstack-express
+
 
 ### Table Of Contents
 - [Installation](#installation)
 - [Native Libraries](#native-libraries)
 - [Usage](#usage-instructions)
 - [Inject Plugin](#inject-plugin)
-- [Points To Remembered](#points_to_remembered)
+- [Points To Remembered](#some_points_to_be_remembered)
 - [Todos](#todos)
 
 ### Version
