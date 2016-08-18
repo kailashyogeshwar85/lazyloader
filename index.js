@@ -35,7 +35,7 @@ module.exports = function Lazyloader() {
     try{
       var _contentPath = null;
       var env = contentstack.config._config.environment;
-      if(env == 'development'){
+      if(env == 'development' || env == "local"){
         _contentPath =  path.join(process.cwd(),"/_content/en-us", decodeURI(url));
       } else {
         _contentPath =  path.join(process.cwd(),"/../_content/en-us", decodeURI(url));
