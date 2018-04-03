@@ -65,7 +65,7 @@ You can visit the site of Built.io for Implementation [Demo](https://www.built.i
  - Some of the native libraries mentioned above may not be supported in Windows System and your npm install may be failed.
  - As you may  included the above nunjucks filter in markup so it would expect the filter to be existed in one of your plugins.
  - Plugin expect you to have your content folder in staging and production environment level as per the standards.
- - Plugin Doesn't support functionality for static image files in your public directory will be available in furutre release.
+ - Plugin Doesn't support functionality for static image files in your public directory will be available in future release.
 
 ### Snippet Example For Point number 2
 ``` js
